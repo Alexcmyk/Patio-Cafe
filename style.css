@@ -224,3 +224,40 @@ section.contact a {
 section.contact a:hover {
   border-bottom: 1px solid #fff;
 }
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  body {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  section,
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    padding: 20px 20px;
+  }
+
+  nav a {
+    display: block;
+    border-bottom: none;
+  }
+
+  nav a:hover {
+    border-bottom: none;
+  }
+
+  nav a:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  h2,
+  blockquote {
+    font-size: 30px;
+  }
+}
